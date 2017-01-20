@@ -1,0 +1,27 @@
+#
+# --table-start--
+dataClass=com.example.android.ormlite.Member
+tableName=Member
+# --table-fields-start--
+# --field-start--
+fieldName=member_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=member_name
+# --field-end--
+# --field-start--
+fieldName=member_age
+# --field-end--
+# --field-start--
+fieldName=member_gender
+# --field-end--
+# --field-start--
+fieldName=member_email
+# --field-end--
+# --field-start--
+fieldName=member_regdata
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
