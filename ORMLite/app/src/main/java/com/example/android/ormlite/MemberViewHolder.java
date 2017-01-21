@@ -45,6 +45,9 @@ public class MemberViewHolder extends RecyclerView.ViewHolder implements View.On
     }
 
     void bind(int listIndex) {
+        // 리싸이클러뷰의 맞은 인덱스 번호를 바인딩 시키는 작업
+        // 헬퍼를 통해 DAO를 가져오고  DAO를 통해 CRUD로직을 실행시킨다.
+
         MemberOpenDataHelper memberOpenDataHelper = OpenHelperManager.getHelper(context, MemberOpenDataHelper.class);
 
         try {

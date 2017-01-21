@@ -6,9 +6,11 @@ import com.j256.ormlite.table.DatabaseTable;
 /**
  * Created by Jusung on 2017. 1. 17..
  */
+//@DatabaseTable , @DatabaseField를 사용해서 테이블 생성
 @DatabaseTable(tableName = "Member")
 public class Member{
 
+    //기본키 설정
     @DatabaseField(generatedId = true)
     private int member_id;
 

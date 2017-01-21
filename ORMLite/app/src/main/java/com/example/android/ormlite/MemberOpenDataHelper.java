@@ -16,9 +16,12 @@ import java.sql.SQLException;
 
 public class MemberOpenDataHelper extends OrmLiteSqliteOpenHelper{
 
+    //ORMLite는 SQLite처럼 Helper클래스의 도움을 받아 디비를 생성, 업데이트 한다.
     private static final String DATABASE_NAME = "Member";
     private static final int DATABASE_VERSION = 1;
+    //디비 생성 정보가 담겨있는 config파일을 맵핑한다.
     private static final int CONFIG=R.raw.config;
+
     //디비 CRUD를 위한 로직이 담겨있는 DAO클래스
     private Dao<Member, Long> MemberDao;
 
